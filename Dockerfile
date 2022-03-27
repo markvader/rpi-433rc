@@ -17,7 +17,6 @@ WORKDIR ${WORKDIR}
 COPY requirements.txt .
 
 RUN pip3 install \
-    --extra-index-url https://www.piwheels.hostedpi.com/simple \
     -r requirements.txt
 
 

@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
---extra-index-url https://www.piwheels.hostedpi.com/simple
+#--extra-index-url https://www.piwheels.hostedpi.com/simple
 
 aniso8601==2.0.0          # via flask-restplus
 attrs==19.1.0
@@ -15,7 +15,7 @@ gunicorn==19.9.0
 itsdangerous==0.24        # via flask
 jinja2==2.10.1            # via flask
 jsonschema==2.6.0         # via flask-restplus
-markupsafe==1.0           # via jinja2
+markupsafe           # via jinja2
 paho-mqtt==1.4.0
 pytz==2017.3              # via flask-restplus
 rpi-rf==0.9.7
